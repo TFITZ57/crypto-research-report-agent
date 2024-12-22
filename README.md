@@ -8,12 +8,13 @@ Report mAIstro creates easily customizable reports on any user-supplied topic.
 
 ## Quickstart
 
-1. Populate the `.env` file: 
+1. Populate the `.env` file:
+
 ```
-$ cp .env.example .env
+cp .env.example .env
 ```
 
-2. Load this folder in [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio?tab=readme-ov-file#download) 
+1. Load this folder in [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio?tab=readme-ov-file#download) 
 
 ![Screenshot 2024-11-22 at 4 03 47 PM](https://github.com/user-attachments/assets/34a5504d-fa97-4076-9bb8-2f0ecc0352ca)
 
@@ -61,7 +62,7 @@ $ cp .env.example .env
    
    While this sequence can be customized via the `structure`, the default flow ensures that conclusions meaningfully incorporate research findings.
 
-4. `Managing different types` - Report mAIstro is built on LangGraph, which has native support for configuration management [using assistants](https://langchain-ai.github.io/langgraph/concepts/assistants/). The report `structure` is a field in the graph configuration, which allows users to create different assistants for different types of reports. 
+4. `Managing different types` - Report mAIstro is built on LangGraph, which has native support for configuration management [using assistants](https://langchain-ai.github.io/langgraph/concepts/assistants/). The report `structure` is a field in the graph configuration, which allows users to create different assistants for different types of reports.
 
 > See the provided [notebook](ntbk/report_maistro.ipynb) or [example reports](report_examples/) for examples! These include:
 >   - Market Analysis: Compare products, services, or companies across key metrics
@@ -93,3 +94,4 @@ $ jupyter notebook report_maistro.ipynb
 ## Deploying 
 
 LangGraph Platform allows various [deployment options](https://langchain-ai.github.io/langgraph/concepts/#deployment-options). 
+# crypto-research-report-agent
